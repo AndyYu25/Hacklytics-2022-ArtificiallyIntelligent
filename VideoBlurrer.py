@@ -9,7 +9,8 @@ from PIL import Image
 
 # Imports the Google Cloud client library
 from google.cloud import vision
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'hackalytics-2022-edddba28c1d0.json'
+#Credentials obtained from Google Cloud.
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'credentials.json'
 
 
 # Instantiates a client
