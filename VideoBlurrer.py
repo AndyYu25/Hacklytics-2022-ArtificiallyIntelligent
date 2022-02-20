@@ -10,6 +10,7 @@ from PIL import Image
 # Imports the Google Cloud client library
 from google.cloud import vision
 #Credentials obtained from Google Cloud.
+#Replace credentials.json with the API key of an authorized service account.
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'credentials.json'
 
 
